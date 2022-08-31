@@ -10,10 +10,16 @@
 body {
     background-color: #F7F7F7;
     font-family: 'Lato', sans-serif;
+    width: 80vw;
+    margin-inline: auto;
 }
 
 input {
     font: inherit;
+}
+
+.label-box {
+    margin-top: 3rem;
 }
 
 .color-container {
@@ -24,6 +30,7 @@ input {
     border: 2px solid #EAEAEC;
     color: grey;
     padding: 10px;
+    margin-top: 0.5rem;
     border-radius: 20px;
     width: max-content;
 }
@@ -37,6 +44,7 @@ input {
     outline: none;
 }
 
+
 .color-picker {
     width: 0;
     border: 0;
@@ -45,10 +53,12 @@ input {
     position: absolute;
 }
 
+
+
 .color-btn {
     height: 40px;
     aspect-ratio: 1;
-    background-color: red;
+    background-color: #000;
     border-radius: 4px;
     border: none;
     cursor: pointer;
